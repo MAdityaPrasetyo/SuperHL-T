@@ -11,6 +11,7 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <link rel="stylesheet" href="https://kit.fontawesome.com/0e94899dab.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="style.css">
 
   <title>Hello, world!</title>
@@ -85,19 +86,19 @@
   <div class="container-fluid bg-lightgrey">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-6 col-sm-11 home-content">
+        <div class="col-md-6 col-sm-11 home-content" data-aos="flip-left">
           <div class="flip-box">
             <div class="flip-box-inner">
               <div class="flip-box-front">
                 <img src="img/hl.png" class="img-fluid" style="border-radius: 20px;">
               </div>
               <div class="flip-box-back">
-                <img src="img/hl2.png" style="border-radius: 20px;">
+                <img src="img/hl2.png" class="img-fluid" style="border-radius: 20px;">
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6 home-text">
+        <div class="col-md-6 home-text" data-aos="fade-up">
           <h2 class="mb-4">
             Home of Water Storage Tank Design and Manufacturing and Customization
           </h2>
@@ -433,6 +434,21 @@
   </script>
 
   <script src="https://kit.fontawesome.com/0e94899dab.js" crossorigin="anonymous"></script>
+  <script>
+    var x = document.getElementById("coverBackground");
+
+    function enableAutoplay() { 
+      x.autoplay = true;
+      x.load();
+    } 
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration:1200,
+    });
+  </script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
