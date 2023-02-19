@@ -106,27 +106,18 @@ body{
     margin-bottom: 10vh;
 }
 
-/* .about-content{
-    border-radius: 0px 100px 0px 0px;
-    margin-top: 30vh;
-    margin-left: 20vh;
-    position: absolute;
-    z-index: 2;
-} */
-
-/* .about-text{
-    border-radius: 0px 80px 0px 0px;
-    margin-top: 30vh;
+.about-content{
+    border-radius: 0px 80px 0px 80px;
 }
 
-.about-text h2 p {
-    margin-left: 10vh;
+.about-image img{
+    border-radius: 80px 0px 90px 0px;
 }
-.about-image{
-    margin-left: 60vh;
-    margin-top: 10vh;
-    margin-bottom: 20vh;
-} */
+
+.about-box{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
 
 @media (min-width: 375px) and (max-width: 575.98px) {
 
@@ -138,9 +129,16 @@ body{
         margin-top: 10vh;
     }
     
-    .about-image{
-        margin-top: 0vh;
+    .about-image img{
+        margin-top: 5vh;
     }
+
+    .about-box{
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+    }
+    
+    
 }
 
 
