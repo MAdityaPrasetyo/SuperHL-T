@@ -119,6 +119,10 @@ body{
     margin-bottom: 5vh;
 }
 
+.text-justify{
+    text-align: justify;
+}
+
 @media (min-width: 375px) and (max-width: 575.98px) {
 
     .home-content{
